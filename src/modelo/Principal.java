@@ -1,7 +1,10 @@
 package modelo;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Iterator;
+
+import ordenar.OrdenarFigura;
 
 public class Principal {
 
@@ -13,6 +16,7 @@ public class Principal {
 		lista.add(new Triangulo(2, 50));
 		lista.add(new Triangulo(15, 50));
 		lista.add(new Triangulo(25, 50));
+		lista.sort(new OrdenarFigura());
 		for (IPerimetro iper : lista) {
 			System.out.print(iper.perimetro());
 		}

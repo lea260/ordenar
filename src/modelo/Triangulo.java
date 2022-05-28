@@ -18,9 +18,7 @@ public class Triangulo implements IPerimetro {
 
 	@Override
 	public String toString() {
-		return "Triangulo [base=" + base + ", altura=" + altura + "] perimetro"+ perimetro();
+		return "Triangulo [base=" + base + ", altura=" + altura + "] perimetro" + perimetro();
 	}
-	
-	
 
 }
