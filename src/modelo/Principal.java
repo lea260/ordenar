@@ -18,7 +18,7 @@ public class Principal {
 		lista.add(new Triangulo(25, 50));
 		lista.sort(new OrdenarFigura());
 		for (IPerimetro iper : lista) {
-			System.out.print(iper.perimetro());
+			System.out.println(iper.toString());
 		}
 	}
 
